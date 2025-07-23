@@ -50,7 +50,7 @@ header{
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
-    margin: auto 120px auto 120px;
+    margin: 120px 197px;
     gap: 133px;
 }
 
@@ -94,3 +94,32 @@ color: #3A3A3A;
 
 /* banner style end */
 /* spoonsor style start */
+
+.spoonsors{
+    margin-top: 120px;
+    display: grid;
+    grid-column: auto 1fr;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.spoonsors-logo{
+margin-right: 60px;
+padding: 35px 0 35px 0;
+}
+
+/* spoonsor style end */
+/* products style start */
+
+.products{
+    margin: 120px 197px;
+}
+
+.products h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    color: #3A3A3A;
+}
